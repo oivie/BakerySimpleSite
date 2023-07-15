@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #fbeee0;
+}
+
+#bakeryVideo {
+    width: 100%;
+}
+
+.headerPosition {
+    display: flex;
+    justify-content: center;
+}
+
+.headerTxt {
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgsSection {
+    margin-right: 40px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background-color: #ffbdb0;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.headingWrapper {
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item ul {
+    background-color: #fbeee0;
+    color: #7c7575;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+del {
+    font-size: 20px;
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+ins {
+    display: inline-block;
+    transform: rotate(-7deg);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #d55b3d;
+}
+
+.normalPrice {
+    font-size: 20px;
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    transform: none;
+    text-decoration: none;
+}
+
+@media all and (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .headerPosition {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .headerTxt {
+        font-size: 22px;
+    }
+}
+
+
+
